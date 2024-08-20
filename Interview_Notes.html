@@ -251,14 +251,15 @@
 <h2>Question:</h2>
 <p><strong>57. What are the layers of the OSI model?</strong></p>
 <p>The OSI (Open Systems Interconnection) model consists of seven layers:</p>
+<p>Layers | Attacks</p>
 <ol>
-  <li>Physical Layer</li>
-  <li>Data Link Layer</li>
-  <li>Network Layer</li>
-  <li>Transport Layer</li>
-  <li>Session Layer</li>
-  <li>Presentation Layer</li>
-  <li>Application Layer</li>
+  <li>Physical Layer | Physical Tampering, Signal Interception</li>
+  <li>Data Link Layer | MAC Address Spoofing, ARP Spoofing</li>
+  <li>Network Layer | IP Spoofing, Routing table attacks</li>
+  <li>Transport Layer | TCP SYN Flood, UDP Flood</li>
+  <li>Session Layer | Session Fixation, Session Hijacking</li>
+  <li>Presentation Layer | Malformed Data Attacks, Encryption Weakness</li>
+  <li>Application Layer | XSS,SQL,CSRF,SSRF, Buffer Overflow</li>
 </ol>
 <p>These layers define a standardized framework for network communication, with each layer having specific functions and interactions to facilitate the exchange of data between devices on a network.</p>
 
