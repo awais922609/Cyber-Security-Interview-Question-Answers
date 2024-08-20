@@ -379,14 +379,18 @@
 <p><strong>106. What is the main course difference between vulnerability assessment and penetration testing?</strong></p>
 <p>The primary distinction lies in their approach and level of engagement. Vulnerability assessment is a more passive process, focusing on identifying and categorizing vulnerabilities without actively exploiting them. In contrast, penetration testing involves simulating real-world attacks to actively exploit vulnerabilities, providing a more hands-on evaluation of the system's security posture.</p>
 
+  <h2>Question:</h2>
+<p><strong>107. What is the main difference between EDR vs XDR vs MDR?</strong></p>
+<p>EDR is Endpoint Detection and Response which only deals with endpoints like servers,laptops,IOT Devices and computers. It only deals with the events produced by the Endpoints and require human intervention to deal with the alerts.\n XDR is Extended detection and response which not only deals with endpoints but also networks,cloud and emails data. It required human intervention but at very low scale as compared to EDR. \n MDR is Managed Detection and Response, In this a third party is managing security solutions for you. There are multiple types of MDR as well. Some of them are : Managed Endpoint Detection and Response. MXDR which is Managed Extended Detection and Response </p>
+  
 <h2>Question:</h2>
-<p><strong>107. Why do we create 2 files in splunk configuration? Input.conf and output.conf is created on splunkforwarder. what is the main difference between them</strong></p>
+<p><strong>108. Why do we create 2 files in splunk configuration? Input.conf and output.conf is created on splunkforwarder. what is the main difference between them</strong></p>
 <p>Input.conf Tells the Splunk forwarder what data to collect. while output.conf Tells the Splunk forwarder where to send the collected data.</p>
 <ol>
   <li>Sources: Files or directories to monitor for new data.</li>
   <li>Metadata: Source, sourcetype, index, and other attributes to attach to the collected data.</li>
   <li>How to send the data to the Splunk infrastructure (directly to indexers or through other forwarders).</li>
-</ol>
+</ol>                                      
 
 Output.conf
 <ol>
