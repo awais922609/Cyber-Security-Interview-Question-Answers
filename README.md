@@ -29,7 +29,7 @@ The PDF covers the following domains:
 
 You can download the full PDF file containing all the notes from the repository by clicking the link below:
 
-[Download Cybersecurity Notes PDF](./cybersecurity_notes.pdf)
+[Download Cybersecurity Notes PDF](./Cyber Security Interview Preparation.pdf)
 
 ## Contributing
 
