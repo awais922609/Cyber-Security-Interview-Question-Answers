@@ -38,7 +38,7 @@ Contributions to this repository are welcome! If you have additional notes or im
 1. **Fork this repository**
 2. **Clone the forked repository**:
    ```bash
-   git clone https://github.com/yourusername/cybersecurity-notes.git
+   git clone https://github.com/awais922609/Cyber-Security-Interview-Question-Answers/edit/main/README.md
 
 ## Liscense
 This repository is licensed under the MIT License.
